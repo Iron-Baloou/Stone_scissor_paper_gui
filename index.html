@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schere, Stein, Papier</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" async></script>
+    <script src="https://kit.fontawesome.com/7c1106c071.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1> Schere | Stein | Papier</h1>
+    </div>
+    <div class="all">
+        <div class="counter">
+            <div class="counter_player">
+                <h2>Player</h2>
+                <p id="counterPlayer">0</p>
+            </div>
+            <div class="counter_computer">
+                <h2>Computer</h2>
+                <p id="counterComputer">0</p>
+            </div>
+        </div>
+        <div class="npcheader"><h1>Computer</h1></div>
+        <div class="computer">
+    
+            <i class="symbol fa-solid fa-hand-peace" id="computerScissor"></i>
+            <i class="symbol fa-solid fa-hand-back-fist" id="computerFist"></i>
+            <i class="symbol fa-solid fa-hand" id="computerPaper"></i>
+        </div>
+        <div class="playerheader"><h1>Player</h1></div>
+        <div class="player">
+            
+            <i class="symbol fa-solid fa-hand-peace" id="playerScissor"></i>
+            <i class="symbol fa-solid fa-hand-back-fist" id="playerFist"></i>
+            <i class="symbol fa-solid fa-hand" id="playerPaper"></i>
+        </div>
+        <div class="result">
+            <h2 class="result2">Ergebnis</h2>
+            <div class="result_text">
+                <p class="resultwin">Sie haben gewonnen</p>
+                <p class="resultlose">Sie haben verloren</p>
+            </div>
+        </div>
+        <div class="resetbox">
+            <button id="reset_button">Clear</button>
+        </div>
+    </div>
+</body>
+
+</html>
